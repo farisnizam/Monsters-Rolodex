@@ -9,7 +9,7 @@ class CardList extends Component {
     return (
       <div className="card-list">
         {monsters.map((monster) => {
-          const { id, name, email } = monster;
+          const { id } = monster;
           return <Card key={id} monster={monster} />;
         })}
       </div>
